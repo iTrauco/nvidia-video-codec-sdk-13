@@ -1,0 +1,182 @@
+🖥️ SYSTEM OVERVIEW -----------------------------
+Hostname     : thinkstation-p5
+Date         : Wed Apr  9 05:47:39 PM EDT 2025
+OS           : Ubuntu 24.04.2 LTS
+
+🏭 SYSTEM IDENTIFICATION ------------------------
+	Manufacturer: LENOVO
+	Product Name: 30GA0013CA
+	Serial Number: ****REDACTED****
+	UUID: ****REDACTED****
+
+📋 BASEBOARD / MOTHERBOARD ----------------------
+	Product Name: 1055
+	Version: SDK0T76557 WIN 3915211134564
+	Serial Number: ****REDACTED****
+
+🧬 CPU INFO ------------------------------------
+Architecture:                         x86_64
+CPU op-mode(s):                       32-bit, 64-bit
+Address sizes:                        52 bits physical, 57 bits virtual
+Byte Order:                           Little Endian
+CPU(s):                               20
+On-line CPU(s) list:                  0-19
+Vendor ID:                            GenuineIntel
+Model name:                           Intel(R) Xeon(R) w5-2445
+CPU family:                           6
+Model:                                143
+Thread(s) per core:                   2
+Core(s) per socket:                   10
+Socket(s):                            1
+Stepping:                             8
+CPU(s) scaling MHz:                   60%
+CPU max MHz:                          4600.0000
+CPU min MHz:                          800.0000
+BogoMIPS:                             6192.00
+Flags:                                fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf tsc_known_freq pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid dca sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch cpuid_fault epb cat_l3 cat_l2 cdp_l3 intel_ppin cdp_l2 ssbd mba ibrs ibpb stibp ibrs_enhanced tpr_shadow flexpriority ept vpid ept_ad fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid cqm rdt_a avx512f avx512dq rdseed adx smap avx512ifma clflushopt clwb intel_pt avx512cd sha_ni avx512bw avx512vl xsaveopt xsavec xgetbv1 xsaves cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local split_lock_detect user_shstk avx_vnni avx512_bf16 wbnoinvd dtherm ida arat pln pts hwp hwp_act_window hwp_epp hwp_pkg_req vnmi avx512vbmi umip pku ospke waitpkg avx512_vbmi2 gfni vaes vpclmulqdq avx512_vnni avx512_bitalg avx512_vpopcntdq la57 rdpid bus_lock_detect cldemote movdiri movdir64b enqcmd fsrm md_clear serialize tsxldtrk pconfig arch_lbr ibt amx_bf16 avx512_fp16 amx_tile amx_int8 flush_l1d arch_capabilities
+Virtualization:                       VT-x
+L1d cache:                            480 KiB (10 instances)
+L1i cache:                            320 KiB (10 instances)
+L2 cache:                             20 MiB (10 instances)
+L3 cache:                             26.3 MiB (1 instance)
+NUMA node(s):                         1
+NUMA node0 CPU(s):                    0-19
+Vulnerability Gather data sampling:   Not affected
+Vulnerability Itlb multihit:          Not affected
+Vulnerability L1tf:                   Not affected
+Vulnerability Mds:                    Not affected
+Vulnerability Meltdown:               Not affected
+Vulnerability Mmio stale data:        Not affected
+Vulnerability Reg file data sampling: Not affected
+Vulnerability Retbleed:               Not affected
+Vulnerability Spec rstack overflow:   Not affected
+Vulnerability Spec store bypass:      Mitigation; Speculative Store Bypass disabled via prctl
+Vulnerability Spectre v1:             Mitigation; usercopy/swapgs barriers and __user pointer sanitization
+Vulnerability Spectre v2:             Mitigation; Enhanced / Automatic IBRS; IBPB conditional; RSB filling; PBRSB-eIBRS SW sequence; BHI BHI_DIS_S
+Vulnerability Srbds:                  Not affected
+Vulnerability Tsx async abort:        Not affected
+
+📦 RAM SLOT MAP --------------------------------
+🧩 DIMM SLOT LAYOUT (by physical locator + node)
+-----------------------------------------------
+Slot Locator: |        | Empty      | Unknown |            |            | 
+Slot Locator: |        | Empty      | Unknown |            |            | 
+Slot Locator: |        | Size: None | DDR5    | Memory Speed: |            | HMCG78MEBRA107N     
+Slot Locator: |        | Empty      | Unknown | Memory Speed: |            | HMCG78MEBRA107N     
+Slot Locator: |        | Empty      | Unknown | Memory Speed: |            | HMCG78MEBRA107N     
+Slot Locator: |        | Size: None | DDR5    | Memory Speed: |            | HMCG78MEBRA107N     
+Slot Locator: |        | Empty      | Unknown | Memory Speed: |            | HMCG78MEBRA107N     
+Slot Locator: |        | Empty      | Unknown | Memory Speed: |            | HMCG78MEBRA107N     
+
+🧠 USABLE SYSTEM RAM ----------------------------
+Total: 30Gi | Used: 7.7Gi | Free: 9.4Gi
+
+🎮 NVIDIA GPU DETAILS ---------------------------
+📊 GPU DIAGNOSTIC PROFILE — METRICS & ENGINEERING CONTEXT---------------------
+🎮 Model              : NVIDIA RTX A5500
+💾 VRAM Total         :  24564 MiB
+📂 VRAM Used          :  1505 MiB
+📭 VRAM Free          :  22703 MiB
+⚙️ Graphics Clock      :  315 MHz
+📉 SM Clock           :  315 MHz
+🌡️ Temp               :  33 °C
+⚡ Power Draw          :  24.34 W
+🔋 Power Limit         :  230.00 W
+📈 GPU Utilization     :  35 %
+
+📘 EXPLAINER ---------------------------------------------
+🎮 Model            : Your actual GPU model (RTX A5500)
+💾 VRAM Total       : Max video memory. Impacts large textures, video frames, and ML batch sizes.
+📂 VRAM Used        : How much memory your apps are currently using (OBS, browser, etc.)
+⚙️ Graphics Clock    : Real-time frequency of graphics core (affects FPS & frame rendering speed).
+📉 SM Clock         : Streaming Multiprocessors (used in ML, CUDA, shaders)
+🌡️ Temp             : Ideal under 80°C. Above 85°C may throttle performance.
+⚡ Power Draw        : Real-time power usage. Spikes under load like 3D rendering or ML.
+🔋 Power Limit       : The GPU’s firmware-enforced power cap (can sometimes be adjusted).
+📈 GPU Utilization   : % of cores in use — 0–100% depending on workload. ~20–60% under OBS.
+
+NVIDIA RTX A5500, 550.120, 1322722044396, 00000000:17:00.0, 24564, 1505, 22703, 34, 315, 315, 24.34, 230.00
+
+  echo "📘 ECC MEMORY EXPLAINER --------------------------------------------"
+  echo "🛡️ ECC (Error-Correcting Code) RAM is designed to detect and correct single-bit errors in memory"
+  echo "   — a critical feature for systems requiring long uptime, data integrity, and fault tolerance."
+  echo
+  echo "🧠 What Makes ECC Different from Consumer RAM:"
+  echo "  • ECC RAM includes an extra memory chip that stores parity or Hamming code"
+  echo "  • It automatically corrects single-bit errors and detects (but doesn't correct) double-bit errors"
+  echo "  • Non-ECC (standard consumer RAM) has no error checking mechanism — silent data corruption is possible"
+  echo
+  echo "🏗️ ECC vs Consumer RAM — Architectural Implications:"
+  echo "  • ECC is standard in server-class and workstation-grade motherboards and CPUs"
+  echo "  • ECC is *not supported* on most consumer CPUs (Intel Core, AMD Ryzen), even if the RAM is ECC-rated"
+  echo "  • Server/workstation CPUs like Intel Xeon or AMD EPYC require ECC and enforce strict memory parity"
+  echo
+  echo "🔧 Use Cases Where ECC Is Essential:"
+  echo "  ✔️ Scientific computing — prevent corrupted result sets during simulations"S
+  echo "  ✔️ AI/ML model training — especially large datasets with long runtimes"
+  echo "  ✔️ Video rendering or encoding — data corruption ruins output frames"
+  echo "  ✔️ Financial or real-time systems — zero tolerance for data loss"
+  echo
+  echo "📎 Notes:"
+  echo "  • ECC RAM typically runs at slightly lower speeds than gaming RAM, but ensures deterministic behavior"
+  echo "  • Workstation motherboards will *refuse to boot* with non-ECC RAM in ECC-only slots"
+  echo "  • Consumer devices prioritize speed over fault tolerance — ECC trades some performance for reliability"
+  echo
+  echo "🧩 Per-slot ECC capability is shown in the RAM SLOT MAP above."
+  echo "    GPU ECC mode (if supported) is shown below under NVIDIA diagnostics."
+  echo
+
+🔧 NVIDIA SETTINGS SNAPSHOT ---------------------
+  Attribute 'GPUCurrentClockFreqs' (thinkstation-p5:1.0): 1665,8000.
+    'GPUCurrentClockFreqs' is a packed integer attribute.
+    'GPUCurrentClockFreqs' is a read-only attribute.
+    'GPUCurrentClockFreqs' can use the following target types: X Screen, GPU.
+  Attribute 'GPUPowerSource' (thinkstation-p5:1.0): 0.
+    'GPUPowerSource' is an integer attribute.
+    'GPUPowerSource' is a read-only attribute.
+    'GPUPowerSource' can use the following target types: X Screen, GPU.
+  Attribute 'GPUCurrentClockFreqsString' (thinkstation-p5:1.0): nvclock=1665, nvclockmin=210, nvclockmax=2100, nvclockeditable=177, memclock=8000, memclockmin=8001, memclockmax=8001, memclockeditable=1, memTransferRate=16000, memTransferRatemin=16002, memTransferRatemax=16002, memTransferRateeditable=1 
+    'GPUCurrentClockFreqsString' is a string attribute.
+    'GPUCurrentClockFreqsString' is a read-only attribute.
+    'GPUCurrentClockFreqsString' can use the following target types: X Screen, GPU.
+  Attribute 'GPUCurrentClockFreqs' (thinkstation-p5:1[gpu:0]): 1665,8000.
+    'GPUCurrentClockFreqs' is a packed integer attribute.
+    'GPUCurrentClockFreqs' is a read-only attribute.
+    'GPUCurrentClockFreqs' can use the following target types: X Screen, GPU.
+  Attribute 'GPUPowerSource' (thinkstation-p5:1[gpu:0]): 0.
+    'GPUPowerSource' is an integer attribute.
+    'GPUPowerSource' is a read-only attribute.
+    'GPUPowerSource' can use the following target types: GPU.
+  Attribute 'GPUFanControlState' (thinkstation-p5:1[gpu:0]): 0.
+    'GPUFanControlState' is a boolean attribute; valid values are: 1 (on/true) and 0 (off/false).
+    'GPUFanControlState' can use the following target types: GPU.
+  Attribute 'GPUCurrentClockFreqsString' (thinkstation-p5:1[gpu:0]): nvclock=1665, nvclockmin=210, nvclockmax=2100, nvclockeditable=177, memclock=8000, memclockmin=8001, memclockmax=8001, memclockeditable=1, memTransferRate=16000, memTransferRatemin=16002, memTransferRatemax=16002, memTransferRateeditable=1 
+    'GPUCurrentClockFreqsString' is a string attribute.
+    'GPUCurrentClockFreqsString' is a read-only attribute.
+    'GPUCurrentClockFreqsString' can use the following target types: X Screen, GPU.
+  Attribute 'GPUCurrentFanSpeed' (thinkstation-p5:1[fan:0]): 30.
+    The valid values for 'GPUCurrentFanSpeed' are in the range 0 - 100 (inclusive).
+    'GPUCurrentFanSpeed' is a read-only attribute.
+    'GPUCurrentFanSpeed' can use the following target types: Fan.
+  Attribute 'GPUCurrentFanSpeedRPM' (thinkstation-p5:1[fan:0]): 1199.
+    'GPUCurrentFanSpeedRPM' is an integer attribute.
+    'GPUCurrentFanSpeedRPM' is a read-only attribute.
+    'GPUCurrentFanSpeedRPM' can use the following target types: Fan.
+
+🌐 NETWORK INTERFACES ---------------------------
+Interface: lo
+	Link detected: yes
+
+Interface: eno1
+	Speed: 1000Mb/s
+	Duplex: Full
+	Link detected: yes
+
+Interface: wlx347de44ff463
+	Link detected: yes
+
+Interface: docker0
+	Speed: Unknown!
+	Duplex: Unknown! (255)
+	Link detected: no
+
